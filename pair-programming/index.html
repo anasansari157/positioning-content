@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pair Programming</title>
+        <link rel="stylesheet" href="assets/stylesheet/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Side-By-Side Positioning Demo</h1>
+            </header>
+
+            <main>
+                <section class="pinkBoxesContainer marginBelow">
+                    <div class="column1 pinkColor box-width40-and-padding border">These two divs are psitioned next to one another using display: inline-block</div>
+
+                    <div class="column2 pinkColor box-width40-and-padding border">Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organized. I've used a reset to insure no elements should have any default margins or padding. (I did add a bottom margin to make it easier to read. This space is actually a space character rendered just as it would be between two inline elements.
+                    </div>
+                </section>
+
+                <section class="greenBoxesContainer marginBelow clearfix">
+                    <div class="column3 greenColor box-width40-and-padding border">These two are positioned using float: left</div>
+
+                    <div class="column4 greenColor box-width40-and-padding border">You can see that, even though the elements arc spaced in the code, the space is not actually rendered on the page. ms may not be a huge deal in these first examples, but...</div>
+                </section>
+
+                <section class="pinkBoxesSecondContainer">
+                    <div class="column5 box-width50-and-padding pinkColor border marginBelow">What if I want my side-by-side elements to take up the full width of the parent element? I can set the width of each to 50%, right? </div>
+
+                    <div class="column6 box-width50-and-padding pinkColor border marginBelow">Wrong! Because, together, the two inline block elements will add up to 100% of the available width, but that doesn't account for the space between. </div>
+                </section>
+
+                <section class="greenBoxesSecondContainer clearfix">
+                    <div class="column7 box-width50-and-padding greenColor border marginBelow borderBox">If I do the same thing with floated elements..</div>
+                    <div class="column8 box-width50-and-padding greenColor border marginBelow borderBox">The two elements are side-by-side just as I  intended and fill the entire width of the parent (which, in this case, is the sarne as the width of the viewport</div>
+                </section>
+            </main>
+        </div>
+
+
+
+        </main>
+        
+    </body>
+</html>

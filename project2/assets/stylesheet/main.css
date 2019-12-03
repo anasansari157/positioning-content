@@ -1,0 +1,308 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End CSS Reset */
+
+/* Font */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* header */
+
+.header {
+    background-color: #5385C1;
+}
+
+
+/*==============
+    First Blue Section
+    ==================*/
+
+/* Navigation */
+
+nav {
+    padding: 50px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+.navMenu {
+    float: right;
+}
+
+.navMenu a {
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.logo {
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.heading {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+.heading p {
+    padding-top: 30px ;
+    padding-bottom: 100px;
+}
+
+
+/* =================
+    First White Section
+===================== */
+
+
+.columnWhite {
+    width: 33.33%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-right: 20px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.columnWhite h2 {
+    color: #5E8CC5;
+    font-size: 20px;
+    /* padding-right: 100px; */
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.columnWhite p {
+    line-height: 1.5;
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.more-btn {
+    border: none;
+    background-color: #5E8CC5;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/*=================
+ Second Blue Section
+ ===================*/
+
+ .blue-section {
+     background-color: #5385C1;
+ }
+
+ .blueColumn {
+     float: left;
+     border: 0.5px solid white;
+     width: 22%;
+ }
+
+.headingParaInBlueSection {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+ .headingParaInBlueSection h2 {
+     font-size: 40px;
+     padding-bottom: 20px;
+     padding-top: 120px;
+ }
+
+ .headingParaInBlueSection p {
+     font-size: 15px;
+ }
+
+.blueColumn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;;
+}
+
+
+.blueColumn img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.blueColumn h2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blueColumn p {
+    font-size: 15px;
+    color: white;
+}
+
+.padding-bottom {
+    padding-bottom: 120px;
+}
+
+/* ==================
+Second White Section
+==================== */
+
+.white-column{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* .white-column:nth-child(2) {
+    float: right;
+    width: 40%;
+} */
+
+
+.white-section .heading h2 {
+    font-size: 40px;
+    color: #5385C1;
+    padding-top: 50px;
+}
+
+.white-section .heading p {
+    font-size: 15px;
+    color: gray;
+}
+
+.white-column h2 {
+    color: #5E8CC5;
+    font-size: 20px;
+    /* padding-right: 100px; */
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.white-column p {
+    line-height: 1.5;
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.white-column img {
+    width: 100%;
+}
+
+/* FOntAwesome */
+
+.copy-right {
+    float: left;
+    line-height: 1.5;
+    font-size: 12px;
+    color: gray;
+    padding-top: 50px;
+}
+
+.footer-nav {
+    float: right;
+}
+
+i {
+    color: #5385C1;
+    padding-left: 10px ;
+}
+ 
+

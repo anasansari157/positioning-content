@@ -1,0 +1,138 @@
+/* Eric Meyer's Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Eric Meyer's Reset */
+
+
+
+/* Custom CSS */
+
+/* Pink Color */
+.pinkColor {
+    background-color: #FF7569;
+    border-color: rgb(241, 36, 18);
+}
+
+.greenColor {
+    background-color: #5EF993;
+    border-color: rgb(7, 192, 72);
+}
+
+/* Common Border Box */
+.borderBox {
+    box-sizing: border-box;
+}
+
+/* Boxwidth 40%  */
+.box-width40-and-padding {
+    width: 40%;
+    padding: 10px;
+}
+
+/* Box width 50% */
+.box-width50-and-padding {
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* Margin below the box containers */
+.marginBelow {
+    margin-bottom: 20px;
+}
+
+/* Common Border */
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+/* Color of Body */
+
+body {
+    background-color: #D4D4D4;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Heading */
+.header {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/* Making first two columns and 5th and 6th inline */
+.column1, .column2, .column5, .column6 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Making second two columns and last two columns float */
+.column3, .column4, .column7, .column8 {
+    float: left;
+}
+
+/* Clearfix */
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table; /*uisng block also works*/
+}
+
+    .clearfix:after {
+        clear: both;
+    }
+
+
